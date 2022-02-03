@@ -14,6 +14,7 @@ Windows 10, Unity 2020.3.18f1, Visual Studio Version 2019 Community
 WebGL Referenzauflösung (960x600) 
 
 ### Visuelle Einblicke in das Projekt: 
+https://3ahmns2122mtin.github.io/13WalknerM-KinderaddiererConsole/
 
 ### Notwendiges für die Ausführung: 
 Für den Export in WebGL muss das Modul WebGL in Unity installiert sein.
@@ -51,15 +52,15 @@ Für den Export in WebGL muss das Modul WebGL in Unity installiert sein.
 ### Lessons Learned:
 | Neu gelernt | Wiederholung | Vertiefung | Lernstoff                                                                             |
 |-------------|--------------|------------|---------------------------------------------------------------------------------------|
-|             |       x       |            | Anlegen eines 2D Unityprojektes                                                       |
+|             |              |      x      | Anlegen eines 2D Unityprojektes                                                       |
 |     x        |              |            | Screenindependent Design für 2D Einstellung des Canvas                                |
 |     x        |              |            | GameView Auflösung Einstellung                                                        |
-|             |              |      x      | Verwendung und Manipulation von UI Elementen Text, Image                              |
+|             |       x       |            | Verwendung und Manipulation von UI Elementen Text, Image                              |
 |             |      x        |            | Anordnung GameObjects in Hierarchy hat Auswirkung auf Anordnung der Elemente im Spiel |
 |             |      x       |            | Unity Editor Komponenten: Game View, Scene View, Hierarchy, Inspector, Project        |
-|     x        |              |            | (optional) Color Tint Playmode                                                        |
-|     x        |              |            | WebGL exportieren                                                                     |
-|     x        |              |            | WebGL auf GitHub Pages veröffentlichen                                                |
+|      x       |              |            | (optional) Color Tint Playmode                                                        |
+|              |       x       |            | WebGL exportieren                                                                     |
+|             |              |      x      | WebGL auf GitHub Pages veröffentlichen                                                |
 
 Limitations
   1) Problem
