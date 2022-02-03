@@ -19,6 +19,10 @@ WebGL Referenzauflösung (960x600)
 - [x] Funktionierender Addierer zweier zahlen
 - [x] Warnung bei ungültiger Eingabe
 
+### Drittmaterial:
+        Image: MatheImage
+        Audio: 10-minute-countdown-timer-with-music-for-kids
+        
 ### Limitationen:
         /
 
