@@ -45,10 +45,10 @@ Für den Export in WebGL muss das Modul WebGL in Unity installiert sein.
 
 ### Optionale Aufgabenstellung:
 - [ ] Grafische Aufbereitung des Projekts
-- [ ] Zusätzliche Text und Sprite Elemente einfügen und platzieren
-- [ ] Text visuell ändern: color, font, font style, etc.
+- [x] Zusätzliche Text und Sprite Elemente einfügen und platzieren
+- [x] Text visuell ändern: color, font, font style, etc.
 - [ ] Textmesh pro GameObject einfügen und manipulieren 
-- [x] Color Tint Playmode einstellen
+- [ ] Color Tint Playmode einstellen
 
 ### Lessons Learned:
 | Neu gelernt | Wiederholung | Vertiefung | Lernstoff                                                                             |
