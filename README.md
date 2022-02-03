@@ -20,11 +20,11 @@ WebGL Referenzauflösung (960x600)
 - [x] Warnung bei ungültiger Eingabe
 
 ### Drittmaterial:
-        Image: MatheImage
-        Audio: 10-minute-countdown-timer-with-music-for-kids
+   Image: MatheImage
+   Audio: 10-minute-countdown-timer-with-music-for-kids
         
 ### Limitationen:
-        /
+/
 
 ### Lessons Learned:
 - [x] wie addiere ich im script
