@@ -1,7 +1,7 @@
 # 13WalknerM-KinderaddiererConsole Aufgabenbeschreibung
 
 ### Projektbeschreibung: 
-Dieses 2D Projekt ist ein Rechner mit dem man einfache Zahlen addieren kann
+Dieses 2D Projekt ist ein Rechner mit dem man 2 einfache Zahlen miteinander addieren kann
 
 ### Entwicklungsplattform: 
 Windows 10, Unity 2020.3.18f1, Visual Studio Version 2019 Community
