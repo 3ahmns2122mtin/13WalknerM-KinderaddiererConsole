@@ -8,6 +8,8 @@ public class MainSceneController : MonoBehaviour
 {
     [SerializeField] private InputField inputFieldTermA, inputFieldTermB;
     [SerializeField] private Text txtResult;
+
+    private int termA, termB;
     public bool testing;
     
     
@@ -26,31 +28,47 @@ public class MainSceneController : MonoBehaviour
 
     void Start()
     {
-        int val1 = CheckAddition(1,2);
-        int val2 = CheckAddition(10, 20);
-        int val3 = CheckAddition(100, 200);
-
-        Debug.Log("val1 : " + val1 + "val2 + val3: " + (val1 + val2));
-        Debug.Log("Nach Methodenaufruf sg. Call");
-        Debug.Log("Frohe Weihnachten");
-
-        inputFieldTermA.text = "HALLO";
+        
+        inputFieldTermA.text = "Geben sie eine Zahl ein";
     }
 
-    public void GetValues()
+    void GetValues()
     {
-        string termA, termB;
-        termA = inputFieldTermA.text;
-        termB = inputFieldTermB.text;
+        //string termA, termB;
+        //termA = inputFieldTermA.text;
+        //termB = inputFieldTermB.text;
 
-        Debug.Log("Methode GetValues wird ausgeführt" +  CheckAddition (int.Parse(termA), int.Parse(termB)));
+
+
+        //Debug.Log("Methode GetValues wird ausgeführt" +  CheckAddition (int.Parse(termA), int.Parse(termB)));
+        try
+        {
+
+            termA = int.Parse(inputFieldTermA.text);
+        }
+        catch (System.Exception)
+        {
+            inputFieldTermA.GetComponent<InputField>().image.color = Color.red;
+            inputFieldTermA.GetComponent<InputField>().placeholder.GetComponent<Text>().text = "hallo";
+            inputFieldTermA.text = "";
+        }
+
+        termB = int.Parse(inputFieldTermB.text);
+
+        txtResult.text = CheckAddition(termA, termB).ToString();
+ 
     }
 
+
+    public void ResetAll ()
+    {
+        txtResult.text = "";
+        inputFieldTermA.text = "";
+        inputFieldTermB.text = "";
+    }
    
 
-    //Reset auf 0 von TermA & TermB
-
-    // Update is called once per frame
+    
     void Update()
     {
        
